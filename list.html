@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>手机</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!-- 头部样式 -->
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+     <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+     
+      <!-- 本页样式 -->
+    <link rel="stylesheet" href="css/font/iconfont.css">
+    <link rel="stylesheet" href="css/list.css" />
+    
+    <!-- 引入jquery -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+  </head>
+  <body>
+  	<!-- 头部 -->
+   <div id="header"> </div>
+	<script>
+	  $("#header").load('header.html');
+	</script>
+	
+    <!-- 右栏  -->
+    <div id="slide"></div>
+	<script>
+	  $("#slide").load("slide.html")
+	</script>
+   
+    <div class="descrip-info wrap">
+      <ul class="line">
+        <li class="service">
+          <div class="left">
+            <p>唯品服务</p>
+          </div>
+          <div class="center">
+            <ul>
+              <li>
+                <a href="#">超值优惠</a>
+              </li>
+              <li>
+                <a href="#">新货</a>
+              </li>
+            </ul>
+          </div>
+          <div class="right">
+            <div class="multi">
+              <span>+</span>
+              <span>多选</span>
+            </div>
+          </div>
+        </li>
+        <li class="brand">
+          <div class="left">
+            <p>品牌</p>
+          </div>
+          <div class="center">
+            <ul>
+              <li>
+                <div class="cover"><a href="#">飞利浦</a></div>
+              </li>
+              <li>
+                <div class="cover"><a href="#">三星</a></div>
+              </li>
+              <li>
+                <div class="cover"><a href="#">诺基亚</a></div>
+              </li>
+              <li>
+                <div class="cover"><a href="#">OPPO</a></div>
+              </li>
+              <li>
+                <div class="cover"><a href="#">苹果</a></div>
+              </li>
+              <li>
+                <div class="cover"><a href="#">朵唯</a></div>
+              </li>
+              <li>
+                <div class="cover"><a href="#">小米</a></div>
+              </li>
+              <li>
+                <div class="cover"><a href="#">中兴</a></div>
+              </li>
+              <li>
+                <div class="cover"><a href="#">华为</a></div>
+              </li>
+            </ul>
+          </div>
+          <div class="right">
+            <div class="multi">
+              <span>+</span>
+              <span>多选</span>
+            </div>
+            <div class="more">
+              <span class="text">更多</span>
+              <span class="iconfont icon-bottom change"></span>
+            </div>
+          </div>
+        </li>
+        <li class="kinds">
+          <div class="left">
+            <p>品类</p>
+          </div>
+          <div class="center">
+            <ul>
+              <li>
+                <a href="#">手机</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="size">
+           <div class="left">
+            <p>屏幕大小</p>
+          </div>
+          <div class="center">
+            <ul>
+              <li>
+                <a href="#">小屏（5英寸以下）</a>
+              </li>
+              <li>
+                <a href="#">中屏（5-6英寸）</a>
+              </li>
+              <li>
+                <a href="#">大屏（6-7英寸）</a>
+              </li>
+              <li>
+                <a href="#">超大屏（7英寸以上）</a>
+              </li>
+              <li>
+                <a href="#">其他</a>
+              </li>
+            </ul>
+          </div>
+          <div class="right">
+            <div class="multi">
+              <span>+</span>
+              <span>多选</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="option">
+      更多选项
+      <span class="iconfont icon-bottom"></span>
+    </div>
+    
+    <div class="compre wrap">
+      <ul>
+        <li class="select"><a href="#">综合</a></li>
+        <li>
+          <a href="">
+            价格
+            <i>></i>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            折扣
+            <i>></i>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            销量
+          </a>
+        </li>
+        <div class="price-range">
+          <input type="text" placeholder="￥" />
+          <span>-</span>
+          <input type="text" placeholder="￥" />
+          <button>确定</button>
+        </div>
+        <div class="page-next">
+          <span>
+            <em class="current">552</em>
+                    件商品
+          </span>
+          <span>
+            <em class="current">1</em>
+            /5
+          </span>
+          <a href=""><span class="iconfont icon-Left"></span></a>
+          <a href="">
+            下一页
+            <span class="iconfont icon-right"></span>
+          </a>
+        </div>
+      </ul>
+    </div>
+     
+    <div class="commodity wrap">
+      <ul>
+        <li>
+          <div class="detail">
+            <img src="images/list/logo12.png" alt="" class="brand">
+            <img src="images/list/flag12.png" alt="" class="flag">
+            <img src="images/list/phone1.jpg" alt="" class="cloth"/>
+            <div class="info">
+              <div class="price">
+                <div class="price-text">
+                  快抢价
+                </div>
+                <span>￥4099</span>
+                <span>￥4488</span>
+                <span>9.1折</span>
+              </div>
+              <p class="description">
+                HUAWEI P40 全网通5G手机
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="detail">
+            <img src="images/list/logo12.png" alt="" class="brand">
+            <img src="images/list/flag12.png" alt="" class="flag">
+            <img src="images/list/phone2.jpg" alt="" class="cloth"/>
+            <div class="info">
+              <div class="price">
+                <div class="price-text">
+                  快抢价
+                </div>
+                <span>￥5999</span>
+                <span>￥6488</span>
+                <span>9.2折</span>
+              </div>
+              <p class="description">
+                HUAWEI P40 Pro 全网通5G手机
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="detail">
+            <img src="images/list/logo3.png" alt="" class="brand">
+            <img src="images/list/flag34.png" alt="" class="flag">
+            <img src="images/list/phone3.jpg" alt="" class="cloth"/>
+            <div class="info">
+              <div class="price">
+                <div class="price-text">
+                  折后价
+                </div>
+                <span>￥4599</span>
+                <span>￥5999</span>
+                <span>7.7折</span>
+              </div>
+              <p class="description">
+               iPhone 11 双卡双待 128G 全网通
+              </p>
+              
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="detail">
+            <img src="images/list/logo4.png" alt="" class="brand">
+            <img src="images/list/flag34.png" alt="" class="flag">
+            <img src="images/list/phone4.jpg" alt="" class="cloth"/>
+            <div class="info">
+              <div class="price">
+                <span>￥880</span>
+                <span>￥999</span>
+                <span>8.8折</span>
+              </div>
+              <p class="description">
+                红米Redmi Note8 4800万全场景四摄高通骁龙665游戏智能手机
+              </p>
+            </div>
+          </div>
+        </li>
+       <li>
+          <div class="detail">
+            <img src="images/list/logo12.png" alt="" class="brand">
+            <img src="images/list/flag12.png" alt="" class="flag">
+            <img src="images/list/phone1.jpg" alt="" class="cloth"/>
+            <div class="info">
+              <div class="price">
+                <div class="price-text">
+                  快抢价
+                </div>
+                <span>￥4099</span>
+                <span>￥4488</span>
+                <span>9.1折</span>
+              </div>
+              <p class="description">
+                HUAWEI P40 全网通5G手机
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="detail">
+            <img src="images/list/logo12.png" alt="" class="brand">
+            <img src="images/list/flag12.png" alt="" class="flag">
+            <img src="images/list/phone2.jpg" alt="" class="cloth"/>
+            <div class="info">
+              <div class="price">
+                <div class="price-text">
+                  快抢价
+                </div>
+                <span>￥5999</span>
+                <span>￥6488</span>
+                <span>9.2折</span>
+              </div>
+              <p class="description">
+                HUAWEI P40 Pro 全网通5G手机
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="detail">
+            <img src="images/list/logo3.png" alt="" class="brand">
+            <img src="images/list/flag34.png" alt="" class="flag">
+            <img src="images/list/phone3.jpg" alt="" class="cloth"/>
+            <div class="info">
+              <div class="price">
+                <div class="price-text">
+                  折后价
+                </div>
+                <span>￥4599</span>
+                <span>￥5999</span>
+                <span>7.7折</span>
+              </div>
+              <p class="description">
+               iPhone 11 双卡双待 128G 全网通
+              </p>
+              
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="detail">
+            <img src="images/list/logo4.png" alt="" class="brand">
+            <img src="images/list/flag34.png" alt="" class="flag">
+            <img src="images/list/phone4.jpg" alt="" class="cloth"/>
+            <div class="info">
+              <div class="price">
+                <span>￥880</span>
+                <span>￥999</span>
+                <span>8.8折</span>
+              </div>
+              <p class="description">
+                红米Redmi Note8 4800万全场景四摄高通骁龙665游戏智能手机
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="detail">
+            <img src="images/list/logo12.png" alt="" class="brand">
+            <img src="images/list/flag12.png" alt="" class="flag">
+            <img src="images/list/phone1.jpg" alt="" class="cloth"/>
+            <div class="info">
+              <div class="price">
+                <div class="price-text">
+                  快抢价
+                </div>
+                <span>￥4099</span>
+                <span>￥4488</span>
+                <span>9.1折</span>
+              </div>
+              <p class="description">
+                HUAWEI P40 全网通5G手机
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="detail">
+            <img src="images/list/logo12.png" alt="" class="brand">
+            <img src="images/list/flag12.png" alt="" class="flag">
+            <img src="images/list/phone2.jpg" alt="" class="cloth"/>
+            <div class="info">
+              <div class="price">
+                <div class="price-text">
+                  快抢价
+                </div>
+                <span>￥5999</span>
+                <span>￥6488</span>
+                <span>9.2折</span>
+              </div>
+              <p class="description">
+                HUAWEI P40 Pro 全网通5G手机
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="detail">
+            <img src="images/list/logo3.png" alt="" class="brand">
+            <img src="images/list/flag34.png" alt="" class="flag">
+            <img src="images/list/phone3.jpg" alt="" class="cloth"/>
+            <div class="info">
+              <div class="price">
+                <div class="price-text">
+                  折后价
+                </div>
+                <span>￥4599</span>
+                <span>￥5999</span>
+                <span>7.7折</span>
+              </div>
+              <p class="description">
+               iPhone 11 双卡双待 128G 全网通
+              </p>
+              
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="detail">
+            <img src="images/list/logo4.png" alt="" class="brand">
+            <img src="images/list/flag34.png" alt="" class="flag">
+            <img src="images/list/phone4.jpg" alt="" class="cloth"/>
+            <div class="info">
+              <div class="price">
+                <span>￥880</span>
+                <span>￥999</span>
+                <span>8.8折</span>
+              </div>
+              <p class="description">
+                红米Redmi Note8 4800万全场景四摄高通骁龙665游戏智能手机
+              </p>
+            </div>
+          </div>
+        </li>
+       <li>
+          <div class="detail">
+            <img src="images/list/logo12.png" alt="" class="brand">
+            <img src="images/list/flag12.png" alt="" class="flag">
+            <img src="images/list/phone1.jpg" alt="" class="cloth"/>
+            <div class="info">
+              <div class="price">
+                <div class="price-text">
+                  快抢价
+                </div>
+                <span>￥4099</span>
+                <span>￥4488</span>
+                <span>9.1折</span>
+              </div>
+              <p class="description">
+                HUAWEI P40 全网通5G手机
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="detail">
+            <img src="images/list/logo12.png" alt="" class="brand">
+            <img src="images/list/flag12.png" alt="" class="flag">
+            <img src="images/list/phone2.jpg" alt="" class="cloth"/>
+            <div class="info">
+              <div class="price">
+                <div class="price-text">
+                  快抢价
+                </div>
+                <span>￥5999</span>
+                <span>￥6488</span>
+                <span>9.2折</span>
+              </div>
+              <p class="description">
+                HUAWEI P40 Pro 全网通5G手机
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="detail">
+            <img src="images/list/logo3.png" alt="" class="brand">
+            <img src="images/list/flag34.png" alt="" class="flag">
+            <img src="images/list/phone3.jpg" alt="" class="cloth"/>
+            <div class="info">
+              <div class="price">
+                <div class="price-text">
+                  折后价
+                </div>
+                <span>￥4599</span>
+                <span>￥5999</span>
+                <span>7.7折</span>
+              </div>
+              <p class="description">
+               iPhone 11 双卡双待 128G 全网通
+              </p>
+              
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="detail">
+            <img src="images/list/logo4.png" alt="" class="brand">
+            <img src="images/list/flag34.png" alt="" class="flag">
+            <img src="images/list/phone4.jpg" alt="" class="cloth"/>
+            <div class="info">
+              <div class="price">
+                <span>￥880</span>
+                <span>￥999</span>
+                <span>8.8折</span>
+              </div>
+              <p class="description">
+                红米Redmi Note8 4800万全场景四摄高通骁龙665游戏智能手机
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="detail">
+            <img src="images/list/logo12.png" alt="" class="brand">
+            <img src="images/list/flag12.png" alt="" class="flag">
+            <img src="images/list/phone1.jpg" alt="" class="cloth"/>
+            <div class="info">
+              <div class="price">
+                <div class="price-text">
+                  快抢价
+                </div>
+                <span>￥4099</span>
+                <span>￥4488</span>
+                <span>9.1折</span>
+              </div>
+              <p class="description">
+                HUAWEI P40 全网通5G手机
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="detail">
+            <img src="images/list/logo12.png" alt="" class="brand">
+            <img src="images/list/flag12.png" alt="" class="flag">
+            <img src="images/list/phone2.jpg" alt="" class="cloth"/>
+            <div class="info">
+              <div class="price">
+                <div class="price-text">
+                  快抢价
+                </div>
+                <span>￥5999</span>
+                <span>￥6488</span>
+                <span>9.2折</span>
+              </div>
+              <p class="description">
+                HUAWEI P40 Pro 全网通5G手机
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="detail">
+            <img src="images/list/logo3.png" alt="" class="brand">
+            <img src="images/list/flag34.png" alt="" class="flag">
+            <img src="images/list/phone3.jpg" alt="" class="cloth"/>
+            <div class="info">
+              <div class="price">
+                <div class="price-text">
+                  折后价
+                </div>
+                <span>￥4599</span>
+                <span>￥5999</span>
+                <span>7.7折</span>
+              </div>
+              <p class="description">
+               iPhone 11 双卡双待 128G 全网通
+              </p>
+              
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="detail">
+            <img src="images/list/logo4.png" alt="" class="brand">
+            <img src="images/list/flag34.png" alt="" class="flag">
+            <img src="images/list/phone4.jpg" alt="" class="cloth"/>
+            <div class="info">
+              <div class="price">
+                <span>￥880</span>
+                <span>￥999</span>
+                <span>8.8折</span>
+              </div>
+              <p class="description">
+                红米Redmi Note8 4800万全场景四摄高通骁龙665游戏智能手机
+              </p>
+            </div>
+          </div>
+        </li>
+       
+      </ul>
+    </div>
+
+    <div class="pages wrap">
+      <span class="total">共5页</span>
+      <div class="num">
+        <span>1</span>
+        <a href="">2</a>
+        <a href="">3</a>
+        <a href="">4</a>
+        <a href="">5</a>
+        <a href="">
+          <span class="iconfont icon-right"></span>
+        </a>
+      </div>
+    </div>
+    
+      <!-- < 尾部 -->
+   <div id="footer"></div>
+	<script>
+	  $("#footer").load('footer.html');
+	</script>
+	
+	  <script src="js/list.js"></script>
+    <script src="js/slide.js"></script>
+    
+  </body>
+</html>
+

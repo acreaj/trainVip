@@ -1,0 +1,212 @@
+body{
+    font-size:12px; 
+    font-family:arial,sans-serif; 
+    background:#f3f1f4; 
+    color:#333;
+    min-width:1000px;
+}
+table{border-collapse:collapse;}
+ul,ol{list-style:none;}
+em,i,address{font-style:normal;}
+fieldset,img{border:0;} 
+img{vertical-align:bottom;}
+a{color:#333; text-decoration:none;}
+a:hover{color:#f10180;}
+.underline {text-decoration: underline;}
+/* 颜色 */
+.deepred{color:#e12487;}/* 深红色 */
+.deepgray{color:#666;}/* 深灰色 */
+.lightgray{color:#888;}/* 浅灰色 */
+.red{color:#f00;}/* 红色 */
+/* 字体 */
+.fwr{ font-family:\5FAE\8F6F\96C5\9ED1,arial,\5b8b\4f53} /* 微软雅黑字体类 */
+.fst{ font-family:\5B8B\4F53,sans-serif}           /* 宋体字体类 */
+.far{ font-family:Arial,sans-serif}                /* Arial字体类 */
+.f13{font-size:13px;}
+.f14{font-size:14px;}
+.f16{font-size:16px;}
+.f18{font-size:18px;}
+.f20{font-size:20px;}
+.underline{text-decoration: underline;}
+/* 布局 */
+.clearfix:after{
+    content:'.'; 
+    height:0; 
+    display:block; 
+    clear:both; 
+    visibility:hidden;}
+.clearfix{*zoom:1;}
+.clear{ overflow: hidden; zoom:1; }
+.block { display: block; }
+.fl{float:left;}
+.fr{float:right;}
+.hidden{display:none;}
+/* 公用按钮 */
+.btns{
+    background:url(../images/help/bg_btn.png) no-repeat;
+    display:inline-block;
+    text-align: center;
+    border:medium none;
+    cursor:pointer;}
+.btngray{
+    width:51px;
+    height:28px;
+    line-height:28px;
+    color:#666;}
+.btnpink{
+    background-position:0 -38px;
+    width:96px;height:27px;
+    line-height: 27px;
+    color:#fb4892;}
+/* 页面图标 */
+.icopen,.icocart,.icophone,.icoplus{
+    background:url(../images/help/bg_icons.png) no-repeat;
+    display:inline-block;}
+.icopen{background-position:0 -50px;width:11px;height:11px;}
+.icocart{background-position:-50px -50px;width:14px;height:13px;}
+.icophone{background-position:-100px -50px;width:10px;height:14px;}
+.icoplus{background-position:-100px 0;width:10px;height:10px;}
+a.btns .icopen,a.btns .icocart,a.btns .icophone{margin: 0 5px -3px 0;}
+/* 搜索框 */
+.usearch{width:237px;height:28px;}
+.uschin{
+    background:url(../images/help/bg_sch.png) no-repeat 146px 6px #fff;
+    color:#cfcdcd;border:1px solid #d9d9d9;
+    padding:3px 27px 3px 9px;
+    line-height: 20px;
+    height: 20px;
+    width:137px;
+    margin-right:8px;
+}
+.uschfocus{background:#fff;color:#666;}
+.uschtitle{font: bold 14px/22px arial; margin: 30px 0px 12px 13px;}
+/* 公用标题 */
+.utitlebox{margin-top:5px;height:40px;border-bottom: 1px solid #d6d4d4;}
+.utitle{padding-left:9px;line-height: 40px;font-weight: bold;}
+.umorelink{padding-right:3px;margin-top:14px;line-height: 20px;}
+.umorelink .icoplus{margin: 0 5px 0 0;vertical-align: middle;}
+/* 框架主体 */
+.helpwrap{width:1000px;margin:0 auto;padding-bottom:20px;}
+.helptop{
+    background:url(../images/help/bg_helptitle.jpg) repeat-x left bottom;
+    width:100%;
+    height:59px;
+    line-height: 59px; 
+    margin-bottom:22px;}
+.helptit{
+    padding:0 8px 0 4px;
+    border-bottom:2px solid #ed278f;
+    margin-right:5px;
+    line-height: 57px;}
+.helptop .usearch{padding-top:15px;}
+.helpmain{background:url(../images/help/bg_helpmain.jpg) repeat-y 189px 0;}
+/* 框架主体-左侧 */
+.helpleftside{
+    background:#fefeff;
+    width:188px;margin-right:4px;
+    border:1px solid #e6e4e4;
+    border-right:medium none;
+    border-radius:6px 0 0 6px;}
+.hmenuitem{margin-top: 5px;}
+.hmenutit{
+    background:url(../images/help/bg_menutitle.jpg) no-repeat;
+    font:bold 16px/50px \5FAE\8F6F\96C5\9ED1,arial;
+    height: 52px;
+    padding-left:24px;
+    width: 170px;
+    margin-left:-6px;
+    position:relative;}
+.hmenulist{width: 100%;padding:10px 0 15px;}
+.hmenulist li{height: 20px;padding: 4px 0 4px 20px;}
+.hmenulist li a{
+    background: url(../images/help/bg_ico3.png) no-repeat 0 5px;
+    display: inline-block;
+    line-height: 18px;
+    padding-left: 18px;
+    display:inline-block;
+    height:18px;overflow: hidden;}
+.hmenulist li a.curr{background-position: 0 -10px;color:#f10180;}
+.hmenulist li a:hover{background-position: 0 -10px;}
+/* 体验专区 */
+.htaste{padding:20px 0 25px;text-align: center;}
+.htaste p{margin-bottom:15px;}
+.htaste a.btns{margin:10px auto 0;display:block;_padding-top:6px;}
+/* 框架主体-右侧 */
+.helprightside{
+    min-height:990px;
+    background:#fff;
+    width:756px;
+    padding:0 25px;
+    border:1px solid #e1e1e1;
+    border-left:medium none;}
+.helpguide{
+    background:url(../images/help/guide1.jpg) no-repeat -4px -2px #fff;
+    height: 87px;
+    margin: 23px 0 0 23px;
+    padding: 0 0 28px;
+    position: relative;
+    width: 723px;}
+.helpguide a{
+    background:transparent;
+    height: 83px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 83px;}
+.helpguide a.link2{left: 158px;}
+.helpguide a.link3{left: 317px;}
+.helpguide a.link4{left: 476px;}
+.helpguide a.link5{left: 630px;}
+.helpguide a.link1:hover,.helpguide a.link2:hover,.helpguide a.link3:hover,
+.helpguide a.link4:hover,.helpguide a.link5:hover{
+    background:url(../images/help/guide2.jpg) no-repeat -4px -2px #fff;}
+.helpguide a.link2:hover{background-position:-162px -2px;}
+.helpguide a.link3:hover{background-position:-321px -2px;}
+.helpguide a.link4:hover{background-position:-480px -2px;}
+.helpguide a.link5:hover{background-position:-634px -2px;}
+.helpguarantee{
+    background:url(../images/help/guarantee.jpg) no-repeat 0 -3px;
+    margin:26px 0 0 23px;
+    height: 125px;
+    position: relative;
+    width: 722px;
+    padding-bottom: 30px;}
+.helpguarantee a{
+    background:transparent;
+    height: 83px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 80px;}
+.helpguarantee a.link2{left: 158px;}
+.helpguarantee a.link3{left: 324px;}
+.helpguarantee a.link4{left: 476px;}
+.helpguarantee a.link5{left: 618px;}
+/* 常见问题-主页 */
+.hcommquestions{padding: 15px 0 25px;width: 100%;}
+.hcommquestions li{
+    float: left;
+    line-height: 30px;
+    padding-left: 10px;
+    width: 368px;
+    height:30px;
+    overflow: hidden;}
+.hcommquestions li a{padding-right: 5px;}
+/* 帮助主题-主页 */
+.helptheme{overflow: hidden;padding: 20px 0 30px;width: 750px;}
+.helptheme li{
+    border-right: 1px solid #ECECEC;
+    float: left;
+    height: 236px;
+    margin-right: -1px;
+    padding: 0 5px 0 15px;
+    width: 105px;
+    padding-bottom:10px;
+    overflow:hidden;}
+.helptheme li .themetitle{
+    color: #575757;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 10px;}
+.helptheme li p{line-height: 20px;}

@@ -1,0 +1,35 @@
+@charset "utf-8";
+/*全局*/
+*{margin: 0;padding: 0;}
+body{font: 12px/1.5 tahoma,arial,Hiragino Sans GB,WenQuanYi Micro Hei,\5FAE\8F6F\96C5\9ED1,\5B8B\4F53,sans-serif;}
+ul li{list-style: none;}
+a{text-decoration: none; cursor: pointer;}
+a:hover{color:#f10180}
+
+.re-panel input{outline:none;height:40px; width: 260px;border: 1px solid #CCC;margin:25px 0px 0px 28px; border-radius: 3px;}
+.re-panel  .yanzengma-1{ width:135px;}
+.re-panel  .yanzengma-2{height: 46px; width:110px; margin-left:10px; background-color:#CCC; color:#999; text-align:center; padding:0;} 
+.re-panel  .tijiao{width:293px;background: #f10180;color: white;border: 1px solid #f10180;text-align: center;cursor: pointer;}	
+.re-panel input[type="checkbox"]{height:15px; width:15px; }	 
+.re-panel .fu{height:80px; width:50px; float:left; } 
+	
+.re-panel .zi{height:50px; width:250px; float:left; margin-top:23px; border-radius: 3px;}
+
+/*.zi内我已阅读并接受以下条款......
+  字体颜色
+*/
+.re-panel .zi{width: 276px;height: 36px;line-height: 1.5;display: inline-block;font-size:12px;}
+.re-panel .zi  a:link,a:visited{text-decoration:none; color:#33F; font-size:12px;} 
+.re-panel .zi  a:hover{ color:#39F;} 
+.zou  a{text-decoration:none; color:#F00;} /*直接登陆*/
+/*-----------插入图片到input------------*/
+.re-panel .yanzengma-1{background:url(../images/register/xinxi.png) no-repeat 5px;height: 46px; padding-left: 40px;} 
+.re-panel .mima{background:url(../images/register/mima.png) no-repeat 5px;height: 46px; padding-left: 40px; } 
+.re-panel .shouji{background: url(../images/register/shouji.png) no-repeat 5px;height: 46px; padding-left: 40px;}
+
+.re-panel {width: 360px;height: 537px;background-color: #FFFFFF;float:right;}
+.re-panel-body{width: 360;height: 51px;border-bottom: 1px solid #e0e0e0;}
+.huiyuan{padding-right: 30px;padding-left: 30px;line-height: 50px;}	 
+.huiyuan span{  font-size: 18px;font-weight: bold;float: left;}
+.re-login {width:112px; height:50px;float:right; font-size:14px; color:#666;} 
+.re-login  a{text-decoration:none; color:#f10180;font-size: 14px;} /*直接登陆*/

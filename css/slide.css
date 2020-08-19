@@ -1,0 +1,194 @@
+/* 样式重置 */
+li,div,p,ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+i {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+/* 内容样式 */
+.slide {
+  position: fixed;
+  right: 0;
+  height: 100%;
+  background-color: #262626;
+  top: 0;
+  z-index: 99;
+}
+
+.slide ul {
+  margin-top: 30px;
+  position: relative;
+  height: 100%;
+  background-color: #262626;
+}
+
+.slide ul li {
+  color: #fff;
+  text-align: center;
+  width: 36px;
+  margin-bottom: 3px;
+  padding: 5px 0;
+}
+
+.slide ul li .iconfont {
+  font-size: 22px;
+}
+
+.slide ul .user {
+  position: relative;
+  height: 50px;
+  padding: 8px 0 6px;
+}
+.slide ul .user .icon-user {
+  font-size: 26px;
+}
+
+.slide ul .user span {
+  font-size: 12px;
+}
+
+ul .user .count {
+  position: absolute;
+  width: 280px;
+  right: -300px;
+  top: 0px;
+  z-index: -1;
+  border: 1px solid #ddd;
+  border-radius: 3px 0 0 3px;
+  background-color: #fff;
+}
+
+ul .count .username .avator {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  background-color: #fff;
+  margin: 20px auto;
+  padding-top: 3px;
+  box-shadow: -2px 2px 1px #eee;
+}
+
+ul .count .username img {
+  border-radius: 33px;
+}
+
+ul .count .username p {
+  text-align: center;
+  color: #666;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+ul .count .username a {
+  color: #f10983;
+}
+
+ul .count .order {
+  border: 1px solid #ddd;
+  background-color: #efefef;
+  padding: 12px 0;
+  margin: 0 -1px;
+  font-size: 0;
+}
+
+ul .count .order p {
+  margin: 6px 0 10px;
+}
+
+ul .count .order .my-order {
+  border-right: 1px solid #ddd;
+}
+
+ul .count .order .iconfont {
+  font-size: 33px;
+}
+
+ul .count .order .my-order,
+ul .count .order .my-money {
+  display: inline-block;
+  width: 139px;
+  font-size: 14px;
+}
+
+ul .count .order .my-order:hover span,
+ul .count .order .my-order:hover p,
+ul .count .order .my-money:hover span,
+ul .count .order .my-money:hover p {
+  color: #f10983;
+}
+
+ul .count .vip a {
+  float: right;
+  font-size: 12px;
+  color: skyblue;
+  margin: 12px 15px;
+}
+/* 购物袋样式 */
+ul .slide-shopping {
+  background-color: #df147f;
+  padding: 20px 0;
+}
+
+ul .slide-shopping p {
+  font-size: 14px;
+  margin: 10px 11px;
+}
+
+ul .slide-shopping .shopping-num {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #f10983;
+}
+
+/* 其余操作 */
+ul .operation li,
+ul .bottom li {
+  position: relative;
+  padding: 5px 0;
+}
+
+ul .user:hover,
+ul .operation li:hover,
+ul .bottom li:hover {
+  background-color: #f10983;
+  cursor: pointer;
+}
+
+ul .operation p,
+ul .bottom p {
+  position: absolute;
+  width: 100px;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 8px;
+  border-radius: 3px 0 0 3px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  right: -100px;
+  top: 0px;
+  z-index: -1;
+  color: #666;
+  cursor: pointer;
+}
+
+ul .bottom {
+  position: absolute;
+  bottom: 36px;
+}

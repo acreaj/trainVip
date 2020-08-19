@@ -1,0 +1,214 @@
+/* reset */
+body,
+ul,
+li,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  /* color: #666; */
+  text-decoration: none;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+/* 内容样式 */
+/* 居中 */
+.wrap {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.border-bott {
+  margin-bottom: 30px;
+  border-bottom: 2px solid #f3168a
+}
+
+ .border-bott .head {
+  height: 78px;
+ 
+}
+
+.border-bott .head img {
+  position: relative;
+  top: 15px;
+}
+.border-bott .top-right {
+  margin-top: 10px;
+}
+.border-bott .top-right,
+.border-bott .bott-right {
+  float: right;
+}
+
+.border-bott .top-right li,
+.border-bott .bott-right li {
+  float: left;
+}
+
+.border-bott .top-right ul {
+  height: 20px;
+}
+.border-bott .top-right li {
+  padding: 0 15px;
+  color: #808080;
+  font-size: 12px;
+  border-right: .1px solid #808080;
+  vertical-align: middle;
+
+}
+
+.border-bott .top-right li:last-child {
+  border-right: none;
+}
+
+.border-bott .top-right .welcome div {
+  display: inline-block;
+  position: relative;
+}
+
+.border-bott .top-right .welcome a:hover,
+.border-bott .top-right .online-service:hover{
+  color: #333;
+}
+
+.border-bott .top-right .rank {
+  display: inline-block;
+  position: absolute;
+  right: -30px;
+  top: -5px;
+  background-image: url(../images/cart/spirit.png);
+  background-position: -372px -253px;
+    width: 26px;
+    height: 26px;
+
+}
+.border-bott .top-right .exit {
+  margin: 0 15px 0 45px;
+}
+
+.border-bott .top-right .vip-service {
+  position: relative;
+}
+
+.border-bott .top-right .vip-service .change{
+  font-size: 10px;
+}
+
+.border-bott .bott-right {
+  margin-top: -3px;
+}
+
+.border-bott .bott-right li {
+  font-size: 12px;
+  padding: 0 10px;
+}
+
+.border-bott .bott-right .percent,
+.border-bott .bott-right .seven,
+.border-bott .bott-right .limite {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+
+.border-bott .bott-right .percent {
+  background-image: url(../images/cart/spirit.png);
+  background-position: -587px -145px;
+    
+}
+
+.border-bott .bott-right .seven {
+  background-image: url(../images/cart/spirit.png);
+  background-position: -432px -253px;
+}
+
+.border-bott .bott-right .limite {
+  background-image: url(../images/cart/spirit.png);
+  background-position: -587px -169px;
+}
+
+.headling {
+  border-bottom:1px solid #d0d0d0;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.headling li {
+  width: 64px;
+  height: 24px;
+  padding: 15px 10px;
+  color: #f10180;
+    border-bottom: 3px solid #f10180;
+}
+.content {
+  padding: 60px 0;
+ 
+}
+
+.content .goods {
+  height: 152px;
+  text-align: center;
+}
+
+.content .goods .empty-tip {
+  display: inline-block;
+  background-image: url(../images/cart/spirit1.png);
+  background-position: -164px 0;
+    width: 120px;
+    height: 120px;
+    margin-right: 30px;
+    vertical-align: top;
+}
+
+.content .goods .empty-text {
+  display: inline-block;
+  width: 209px;
+  height: 64px;
+  text-align: left;
+}
+
+.content .goods .empty-text p:first-child {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.content .goods .empty-text p:nth-child(2){
+  font-size: 14px;
+  line-height: 45px;
+}
+
+.content .goods .empty-text .opera a {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 19px;
+ 
+    font-size: 15px;
+  border-radius: 5px;
+}
+
+.content .goods .empty-text .opera a:first-child {
+
+  color: #fff;
+  background-color: #f10180;
+    border: 1px solid #f10180;
+}
+
+.content .goods .empty-text .opera a:nth-child(2) {
+  color: #333;
+  background-color: #fafafa;
+    border: 1px solid #c2c2c2
+}
